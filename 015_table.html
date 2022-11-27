@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+     table,th,td{
+        border:2px solid rgb(135, 209, 222);
+        border-radius: 10px;
+        
+    }
+    th,td{
+        padding:30px;
+       height:350px;
+       
+    }
+    
+    select{
+            width: 100px;
+    }
+        
+        fieldset{
+            width:150%;
+        }
+        .profile{
+            width: 200px;
+            height: 30px;
+        }
+        
+</style>
+</head>
+<body>
+  
+    <table Align="left">
+        <tr>
+            
+           <th style="font-size:250%; color:rgb(109, 8, 241);"> $135 <br>  <!--Ordered List attributes:1, 2, 3,...none-->
+                <ol style="color:rgb(80, 119, 80) ;font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; margin-right:70px ;">
+                    <ul type="tick">
+                    <li>Pristine Louts Hotel</li>
+                    <li>Boat with Engine</li>
+                    <li>Famous Restaurant</li>
+                    <li>Brand New-bus</li>
+                </th>
+                <th style="font-size:250%; color:rgb(109, 8, 241)">$70 <br>  <!--Ordered List attributes:1, 2, 3,...none-->
+                    <ol style="color:rgb(80, 119, 80) ;font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px; margin-right:70px ;">
+                        <ul type="tick">
+                        <li>Motel</li>
+                        <li>Boat without Engine</li>
+                        <li>Normal Restaurant</li>
+                        <li>Normal bus</li>
+                    </th>
+               </tr>
+            </table><br><br>
+            <form style="margin-top:400px; width:750px; background-image:url('Images/MicrosoftTeams.png'); width:1500px; color:white" >
+                <fieldset>
+                    <p>From for Booking</p>
+                    <input list="name-list">
+                    <datalist id="name-list">
+                        <option value="Ms">Ms</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </datalist><br><br>
+                    <label for="fname">First Name:</label><br>
+                    <input  class="profile" type="text" id="fname" value="John" name="fname"><br><br>
+                    <lable for="lname">Last Name:</lable><br>
+                    <input  class="profile" type="text" id="lname" value="Doe" name="lname"><br><br>
+                    <lable for="ph">Phone Number:</lable><br>
+                    <input class="profile" type="Phone Number" id="ph" value="09880529596" name="ph"><br><br>
+                    <input type="checkbox" style="font-size:30;" id="$135" name="v1" value="$135">
+                    <label for="$135">$135</label>
+                    <input type="checkbox" id="$70" name="v2" value="$70">
+                    <label for="$70">$70</label><br>
+                    <button class="profile" type="button"onclick="alert( 'Thanks')">Submit</button>
+                    <input  type="reset" value="Reset">
+                  </fieldset>
+             
+                    
+           
+</body>
+</html>
